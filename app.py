@@ -5,8 +5,8 @@ from facenet_pytorch import MTCNN, InceptionResnetV1
 import torch
 from torch.utils.data import DataLoader
 from PIL import Image
-mtcnn = torch.load("data1.pt")
-resnet = torch.load("data3.pt")
+# mtcnn = torch.load("data1.pt")
+# resnet = torch.load("data3.pt")
 saved_data = torch.load('data2.pt') # loading data.pt file
         
 
