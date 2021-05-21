@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Complete Actor.com</title>
+    <link href="{{ url_for('static', filename='css/sty.css') }}" rel="stylesheet">  
+
+</head>
+<body>
+    
+<div class="Mohanlal">
+  <img src="static/ettan1.jpg" width="1400" >
+  <h2>Welcome To BIG M's Prediction Page</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="static/mammootty1.jpg" width="100%;"height="650">
+      </div>
+      <div class="column">
+        <img src="static/lal.jpg" width="100%;"height="400">
+        </div>
+       </div>
+       <h1>Click Below and Upload Your favourite Star(file) </h1>   
+       <br>   
+      <form action = "/predict" method = "POST" 
+      enctype = "multipart/form-data">
+      <input type = "file" name = "file" id = "file"/>
+        </br>
+        </br>
+        <div class="image-preview" id="imagePreview">
+          <img src="" alt="Image Preview" class="image-preview__image">
+          <span class="image-preview__default-text">Image Preview</span>
+        </div>
+        <br>
+        |<br>
+        <input type="submit" value="submit" name="submit"></a> 
+   </form>
+      <br>
+      <br>
+  
+
+
+    <br>
+    <br>
+    <script>
+      const inpFile=document.getElementById("file");
+const previewContainer = document.getElementById("imagePreview");
+const previewImage = previewContainer.querySelector(".image-preview__image");
+const previewDefaultText = previewContainer.querySelector(".image-preview__default-text");
+
+inpFile.addEventListener("change",function(){
+    const file = this.files[0];
+
+    if (file){
+        const reader = new FileReader();
+
+        previewDefaultText.style.display = "none";
+        previewImage.style.display = "block";
+
+        reader.addEventListener("load",function(){
+            console.log(this);
+            previewImage.setAttribute("src",this.result);
+
+        });
+        reader.readAsDataURL(file);
+    }else{
+        previewDefaultText.style.display = null;
+        previewImage.style.display = null;
+        previewImage.setAttribute("src","");
+
+    }
+});
+
+
+
+    </script>
+
+
+
+</body>
+</html>
