@@ -47,7 +47,7 @@ def upload():
             return (name_list[idx_min], min(dist_list))
 
 
-        result = face_match(file_path, 'data2.pt')
+        result = face_match("img.jpg", 'data2.pt')
         if(result[0] == "mammootty" and result[1] < 0.8):
             return render_template('mammootty.html')
         elif(result[0] == "mammootty" and result[1] > 0.8):
