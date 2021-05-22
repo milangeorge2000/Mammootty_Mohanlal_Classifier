@@ -24,7 +24,7 @@ def index():
 def upload():
     if request.method == 'POST':
         f = request.files['file']
-        img.save("img.jpg")
+        f.save("img.jpg")
 
  
         def face_match(img_path, data_path): # img_path= location of photo, data_path= location of data.pt 
