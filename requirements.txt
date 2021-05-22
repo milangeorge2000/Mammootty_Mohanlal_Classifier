@@ -1,4 +1,4 @@
-https://download.pytorch.org/whl/cpu/torch-1.8.1%2Bcpu-cp37-cp37m-linux_x86_64.whl
+torch==1.7.0+cpu torchvision==0.8.1+cpu torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 Flask==1.1.1
 gunicorn==20.0.4
 Werkzeug==0.16.0
