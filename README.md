@@ -5,9 +5,9 @@
  BFH/recoUqTMDeQMOWwqi/2021
 
 ## Members
-   Milan Varghese George
-   Amal U Nair
-   Devika J
+   * Milan Varghese George
+   * Amal U Nair
+   * Devika J
 
 # Mammootty Mohanlal Classifier 
 
