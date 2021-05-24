@@ -31,7 +31,7 @@
 
 
 ## Demo
-[![](https://github.com/milangeorge2000/Mamukka_Lalettan-Classifier/blob/main/static/ee575888-1427-410c-8d68-c41bf58afa86.jpg?raw=true)](https://github.com/milangeorge2000/Mamukka_Lalettan-Classifier/blob/main/static/d3b760c1-857b-48fa-bf96-f53ef273b9c9.jpg?raw=true)
+[![](https://github.com/milangeorge2000/Mammootty_Mohanlal_Classifier/blob/main/static/ee575888-1427-410c-8d68-c41bf58afa86.jpg?raw=true)](https://github.com/milangeorge2000/Mammootty_Mohanlal_Classifier/blob/main/static/d3b760c1-857b-48fa-bf96-f53ef273b9c9.jpg?raw=true)
 
 ## Overview
 This is a simple image classification Flask app trained which classfies given input into two legendry actors in malayalam "Mammootty and Mohanlal".If an unknown image is given
