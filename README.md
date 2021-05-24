@@ -1,3 +1,5 @@
+## Hosted at AWS EC2 
+ http://ec2-18-133-180-187.eu-west-2.compute.amazonaws.com:8080/
 ## Video Recording
   * https://www.loom.com/share/ef295dc856164c658258e475a0f25b0f
 
@@ -29,7 +31,6 @@
 
 
 ## Demo
-Hosted at : http://ec2-18-133-180-187.eu-west-2.compute.amazonaws.com:8080/
 [![](https://github.com/milangeorge2000/Mamukka_Lalettan-Classifier/blob/main/static/ee575888-1427-410c-8d68-c41bf58afa86.jpg?raw=true)](https://github.com/milangeorge2000/Mamukka_Lalettan-Classifier/blob/main/static/d3b760c1-857b-48fa-bf96-f53ef273b9c9.jpg?raw=true)
 
 ## Overview
